@@ -1,0 +1,6 @@
+- task: CmdLine@2
+  inputs:
+    script: |
+      javac add.java
+      
+       java add
